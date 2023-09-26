@@ -1,0 +1,16 @@
+
+public class SomOfOddNUmbers {
+public static void main(String []args) {
+	int a=7;
+	int b=21;
+	int sum=0;
+	System.out.println("the odd numbers between a and b:");
+		for (int i=a;i<=b;i++) {
+		if (i% 2!=0) {
+			System.out.println(i);
+			sum+=i;
+		}
+	}
+	System.out.println("The sum of odd numbers is:"+sum);
+}
+}
